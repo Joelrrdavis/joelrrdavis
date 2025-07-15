@@ -67,14 +67,6 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Section banner (optional) */
-.banner {
-    background-image: url('assets/ai_consulting_banner.png');
-    background-size: cover;
-    background-position: center;
-    height: 220px;
-}
-
 /* Dark-themed minimalist CSS */
 
 body {
@@ -87,7 +79,7 @@ body {
 }
 
 .banner {
-    background-image: url('assets/ai_banner.png');
+    background-image: url('assets/ai_consulting_banner.png');
     background-size: cover;
     background-position: center;
     height: 220px;
