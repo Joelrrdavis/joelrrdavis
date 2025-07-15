@@ -67,87 +67,15 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Dark-themed minimalist CSS */
-
-body {
-    background-color: #121212;
-    color: #ffffff;
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    line-height: 1.6;
-}
-
-/* Centered max-width layout */
-main {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 2rem 1.5rem;
-}
-
-/* Header styles */
-header {
-    background-color: #1f1f1f;
-    padding: 15px 0;
-    text-align: center;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-nav ul li {
-    margin: 0 15px;
-}
-
-nav ul li a {
-    color: #ffffff;
-    text-decoration: none;
-    font-size: 18px;
-    transition: color 0.3s ease-in-out;
-}
-
-nav ul li a:hover {
-    color: #00adb5;
-}
-
-/* Typography */
-h1, h2, h3 {
-    font-family: 'Helvetica Neue', sans-serif;
-    margin-top: 2rem;
-    font-weight: 600;
-}
-
-p {
-    margin-bottom: 1.5rem;
-}
-
-a {
-    color: #00adb5;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-/* Section banner (optional) */
-
-
+/* Section banner (responsive) */
 .banner {
     background-image: url('assets/ai_banner.jpg');
     background-size: cover;
     background-position: center;
-    aspect-ratio: 16 / 4; /* or try 16/5 or 16/3 depending on your image */
+    aspect-ratio: 16 / 4;
     width: 100%;
 }
 
-
 /* Hero section, if used */
 .hero {
     text-align: center;
@@ -163,18 +91,3 @@ footer {
     margin-top: 3rem;
 }
 
-
-/* Hero section, if used */
-.hero {
-    text-align: center;
-    padding: 100px 20px;
-}
-
-/* Footer */
-footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #1f1f1f;
-    color: #aaa;
-    margin-top: 3rem;
-}
