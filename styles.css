@@ -69,12 +69,17 @@ a:hover {
 
 /* Section banner (responsive) */
 .banner {
-    background-image: url('assets/ai_banner.jpg');
-    background-size: cover;
-    background-position: center;
-    aspect-ratio: 16 / 4;
     width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 4;
+    background-image: url('assets/ai_banner.jpg');
+    background-repeat: no-repeat;
+    background-size: contain; /* was cover — this avoids stretching important parts */
+    background-position: center;
+    background-color: #121212;
+    overflow: hidden;
 }
+
 
 /* Hero section, if used */
 .hero {
