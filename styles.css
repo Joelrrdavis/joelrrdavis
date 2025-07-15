@@ -69,16 +69,16 @@ a:hover {
 
 /* Section banner (responsive) */
 .banner {
-    width: 100%;
-    height: auto;
-    aspect-ratio: 16 / 4;
     background-image: url('assets/ai_consulting_banner.png');
+    background-size: contain;         /* prevents stretching */
     background-repeat: no-repeat;
-    background-size: contain; /* was cover — this avoids stretching important parts */
     background-position: center;
     background-color: #121212;
+    width: 100%;
+    aspect-ratio: 16 / 4;
     overflow: hidden;
 }
+
 
 
 /* Hero section, if used */
